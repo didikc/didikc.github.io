@@ -2730,13 +2730,13 @@ body {
 
 /* Styles for website counter container */
 .website-counter {
-  background-color: white;
+  background-color: transparent;
   height: 50px;
   width: 80px;
   color: grey;
   border-radius: 30px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 10px;
 }
 
