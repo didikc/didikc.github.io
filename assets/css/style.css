@@ -2715,3 +2715,39 @@ body.preview-page .demo-showcase .demo-box h6 a {
 .modal.subscibe-modal.modal-two .modal-body form button:hover {
   background-color: #0008f1;
 }
+/* Center child elements */
+body,
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  height: 100vh;
+}
+
+/* Styles for website counter container */
+.website-counter {
+  background-color: white;
+  height: 50px;
+  width: 80px;
+  color: grey;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* Styles for reset button */
+#reset {
+  margin-top: 20px;
+  background-color: #008cba;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 20px;
+  color: white;
+  border: 0;
+}
+
